@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: url(./img/background.webp) no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options{
+    width: 20%;
+    margin: .7rem 0;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: none;
+    box-shadow: 3px 3px 5px black;
+    gap: 1rem;
+    border: none;
+}
+
+.options:hover{
+    background: #B3005E;
+    color: #F8F9D7;
+
+    box-shadow: 0 0 5px #B3005E,
+   
+}
