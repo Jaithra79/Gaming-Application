@@ -49,8 +49,7 @@ h1{
     background-color: white;
     color:darkblue;
     border-radius: 1rem;
-    border: none;
-    
+    border: none;   
 }
 
 #reset-btn:hover{
